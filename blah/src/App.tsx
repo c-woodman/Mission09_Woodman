@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import jsonData from './CollegeBasketballTeams.json';
-import { json } from 'stream/consumers';
-import ncaaLogo from 'public/NCAA_logo.svg.png';
 
 interface SchoolProps {
   school: string;
